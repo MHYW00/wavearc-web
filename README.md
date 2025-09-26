@@ -1,33 +1,31 @@
-# WaveArc - Premium Corporate Website
+# WaveArc Website
 
-Ultra-minimal Apple-style corporate website. Siyah arka plan, beyaz yazılar, premium tasarım.
+Modern corporate website built with React, TypeScript, and premium design principles.
 
-## ✨ Özellikler
+## Features
 
-- **Apple Tarzı Tasarım**: Siyah arka plan, ultra-minimal, premium estetik
-- **Statik Website**: VPS gerektirmez, sadece hosting yeterli
-- **System Fonts**: Apple'ın system fontları (-apple-system, SF Pro)
-- **Smooth Animations**: Framer Motion ile akıcı geçişler
-- **İki Dil**: Türkçe/İngilizce desteği
-- **Responsive**: Tüm cihazlarda mükemmel görünüm
-- **Fast Loading**: Optimize edilmiş bundle'lar (~400KB)
+- **Minimal Design**: Clean, professional Apple-inspired aesthetics
+- **Multilingual Support**: Turkish and English language options
+- **Scroll Animations**: Velocity-responsive animations with Framer Motion
+- **Mobile Responsive**: Optimized for all device sizes
+- **Contact Integration**: Formspree-powered contact forms
+- **Apple Store Ready**: Compliant support page for app submissions
+- **Fast Performance**: Optimized build with code splitting
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 18** with TypeScript
-- **Vite** for lightning-fast development
-- **TailwindCSS** for styling with custom design tokens
-- **Framer Motion** for UI animations and page transitions
-- **GSAP + ScrollTrigger** for advanced scroll-driven animations
-- **React Three Fiber** for 3D elements and interactions
-- **react-i18next** for internationalization
+- **Vite** for fast development and building
+- **TailwindCSS** for utility-first styling
+- **Framer Motion** for smooth animations
 - **React Router** for client-side routing
 
-### Development Tools
-- **TypeScript** for type safety
-- **ESLint & Prettier** for code quality
-- **PostCSS & Autoprefixer** for CSS processing
+### Features
+- **Multilingual**: Context-based language switching
+- **Form Handling**: Formspree integration for contact forms
+- **Custom Hooks**: Scroll velocity detection and geolocation
+- **Responsive Design**: Mobile-first approach
 
 ## 📁 Project Structure
 
@@ -129,36 +127,32 @@ const resources = {
 }
 ```
 
-### 3D Scene Customization
-Modify `src/three/ProductScene.tsx` to:
-- Change 3D models
-- Adjust lighting and materials
-- Add more interactive elements
+## Pages
 
-## 🎯 Performance Optimization
+- **Home**: Hero section with typewriter animation and company overview
+- **Studio**: Creative development services
+- **Labs**: Research and innovation projects
+- **Tech**: Technical infrastructure solutions
+- **About**: Company information and team
+- **Contact**: Contact form with Formspree integration
+- **Support**: Apple Store compliant support page
+- **Privacy**: Privacy policy and data handling
 
-- **Code Splitting**: Automatic route-based splitting
-- **Image Optimization**: Use `next/image` equivalent or Vite plugins
-- **Bundle Analysis**: Run `npm run build` to see chunk sizes
-- **CDN**: Deploy static assets to CDN for better performance
+## Performance
 
-## ♿ Accessibility
+- Fast loading with optimized bundle sizes
+- Code splitting for efficient loading
+- Responsive images and assets
+- Smooth 60fps animations
+- Mobile-first responsive design
 
-- Keyboard navigation support
-- ARIA labels and roles
-- Color contrast compliance
-- Screen reader friendly
-- Focus management
+## Browser Support
 
-## 📊 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+- Modern browsers (Chrome, Firefox, Safari, Edge)
 - Mobile browsers (iOS Safari, Chrome Mobile)
+- ES6+ support required
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -166,10 +160,6 @@ Modify `src/three/ProductScene.tsx` to:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+## License
 
-This project is private and proprietary to WaveArc.
-
----
-
-Built with ❤️ by the WaveArc Team
+This project is proprietary to WaveArc.
