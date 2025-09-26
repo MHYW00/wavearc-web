@@ -1,26 +1,7 @@
 {
-  "headers": [
-    {
-      "source": "/robots.txt",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/plain"
-        }
-      ]
-    }
-  ],
   "rewrites": [
     {
-      "source": "/robots.txt",
-      "destination": "/robots.txt"
-    },
-    {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap.xml"
-    },
-    {
-      "source": "/((?!robots\\.txt|sitemap\\.xml|favicon\\.ico|.*\\.(png|jpg|jpeg|gif|svg|css|js|json|ico)).*)",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
