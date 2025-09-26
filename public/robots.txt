@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://wavearc.co/sitemap.xml
+
+# Important pages
+Allow: /about
+Allow: /contact
+Allow: /studio
+Allow: /labs
+Allow: /tech
+Allow: /privacy
+Allow: /support
+
+# Social media verification files
+Allow: /.well-known/
+
+# Block admin/dev files
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /dist/
+Disallow: /node_modules/
