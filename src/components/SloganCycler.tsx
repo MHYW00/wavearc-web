@@ -13,11 +13,15 @@ const SloganCycler = () => {
         <div className="min-h-[1.2em]">
           <Typewriter
             options={{
-              strings: ['Think Different, Build Better'],
+              strings: [
+                'Think Different, Build Better',
+                'Farklı Düşün, Daha İyisini İnşa Et'
+              ],
               autoStart: true,
-              loop: false,
+              loop: true,
               delay: 80,
               deleteSpeed: 50,
+              pauseFor: 4000,
               cursor: '|',
               wrapperClassName: 'typewriter-wrapper',
               cursorClassName: 'typewriter-cursor'
