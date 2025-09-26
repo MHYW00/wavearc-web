@@ -12,7 +12,7 @@ const ScrollSections = () => {
     offset: ['start end', 'end start']
   })
   const { t } = useLanguage()
-  const { velocity, isScrollingFast } = useScrollVelocity()
+  const { isScrollingFast } = useScrollVelocity()
 
   const sections = [
     {

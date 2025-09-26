@@ -36,7 +36,7 @@ const Footer = () => {
               { text: t.footer.links.about, path: '/about' },
               { text: t.footer.links.contact, path: '/contact' },
               { text: t.footer.links.privacy, path: '/privacy' }
-            ].map((link, index) => (
+            ].map((link) => (
               <motion.a
                 key={link.text}
                 href={link.path}

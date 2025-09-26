@@ -5,7 +5,7 @@ import SloganCycler from '../SloganCycler'
 
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
-  const { t, isLoading } = useLanguage()
+  const { t } = useLanguage()
 
   useEffect(() => {
     const updateMousePosition = (e: MouseEvent) => {
