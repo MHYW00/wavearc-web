@@ -121,7 +121,7 @@ const ContactPage = () => {
               </h3>
 
               <form
-                action="https://formspree.io/f/xwpkvvbd"
+                action="https://api.web3forms.com/submit"
                 method="POST"
                 className="space-y-6"
                 onSubmit={async (e) => {
@@ -130,15 +130,20 @@ const ContactPage = () => {
                   setSubmitStatus('idle')
 
                   try {
-                    const response = await fetch('https://formspree.io/f/xwpkvvbd', {
+                    const formData = new FormData(e.target as HTMLFormElement)
+                    formData.append('access_key', 'bc8b7e88-c5e7-4b9f-b91f-5d5b6d8e9a9c')
+                    formData.append('subject', 'New Contact Form Submission from WaveArc Website')
+                    formData.append('from_name', 'WaveArc Website')
+                    formData.append('to_email', 'mete@wavearc.co')
+
+                    const response = await fetch('https://api.web3forms.com/submit', {
                       method: 'POST',
-                      body: new FormData(e.target as HTMLFormElement),
-                      headers: {
-                        'Accept': 'application/json'
-                      }
+                      body: formData
                     })
 
-                    if (response.ok) {
+                    const result = await response.json()
+
+                    if (result.success) {
                       setSubmitStatus('success')
                       ;(e.target as HTMLFormElement).reset()
                     } else {
@@ -176,7 +181,7 @@ const ContactPage = () => {
 
                 <div>
                   <input
-                    name="_replyto"
+                    name="email"
                     type="email"
                     placeholder="Email"
                     className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-white/40 transition-colors"
@@ -186,7 +191,7 @@ const ContactPage = () => {
 
                 <div>
                   <input
-                    name="_subject"
+                    name="subject"
                     type="text"
                     placeholder={language === 'tr' ? 'Konu' : 'Subject'}
                     className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-white/40 transition-colors"
