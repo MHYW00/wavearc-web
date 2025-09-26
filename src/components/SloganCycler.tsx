@@ -13,27 +13,18 @@ const SloganCycler = () => {
         <div className="min-h-[1.2em]">
           <Typewriter
             options={{
-              autoStart: false,
-              loop: false,
+              strings: [
+                'Think Different, Build Better',
+                'Farklı Düşün, Daha İyisini İnşa Et'
+              ],
+              autoStart: true,
+              loop: true,
               delay: 80,
               deleteSpeed: 50,
               cursor: '|',
               wrapperClassName: 'typewriter-wrapper',
-              cursorClassName: 'typewriter-cursor'
-            }}
-            onInit={(typewriter) => {
-              const runLoop = () => {
-                typewriter
-                  .typeString('Think Different, Build Better')
-                  .pauseFor(4000)
-                  .deleteAll()
-                  .typeString('Farklı Düşün, Daha İyisini İnşa Et')
-                  .pauseFor(4000)
-                  .deleteAll()
-                  .callFunction(runLoop)
-                  .start();
-              };
-              runLoop();
+              cursorClassName: 'typewriter-cursor',
+              skipAddStyles: false
             }}
           />
         </div>
