@@ -1,0 +1,131 @@
+{
+  "hero": {
+    "mainTitle": "WaveArc",
+    "slogan1": "Think Different",
+    "slogan2": "Build Better",
+    "slogan1Tr": "Farklı Düşün",
+    "slogan2Tr": "Daha İyisini İnşa Et"
+  },
+  "sections": {
+    "studio": {
+      "title": "WaveArc",
+      "subtitle": "Studio",
+      "description": "Our comprehensive subsidiaries powering software development and technology solutions",
+      "studioDesc": "Creative software development and design solutions",
+      "labsDesc": "Research, development and innovative technology laboratory",
+      "techDesc": "Advanced technology infrastructure and system solutions"
+    },
+    "vision": {
+      "title": "Vision",
+      "subtitle": "Shaping the future",
+      "description": "Continuously pushing the boundaries of technology, we build strong bridges between imagination and reality, leading the digital transformation journey. By blending innovation and creativity, we construct tomorrow's technologies today."
+    },
+    "mission": {
+      "title": "Mission",
+      "subtitle": "Focused on making a difference",
+      "description": "Aiming for excellence in every project, we fundamentally transform industries with user-centric and thoughtful designs. While developing sustainable solutions, we maximize technology's potential to improve human life."
+    },
+    "about": {
+      "title": "Who We Are",
+      "subtitle": "Founder: Mete Han Yıldırım",
+      "description": "Founded in Turkey in 2025, WaveArc is a pioneering technology company offering groundbreaking innovative solutions in software development and technology, aiming to develop globally competitive products. We make a difference in the industry with our visionary approach."
+    }
+  },
+  "studio": {
+    "title": "WaveArc Studio",
+    "description": "Where creativity meets technology. We develop software solutions with modern design principles, prioritizing user experience.",
+    "services": {
+      "web": "Web Development",
+      "mobile": "Mobile Applications",
+      "ui": "UI/UX Design",
+      "ecommerce": "E-commerce Solutions",
+      "enterprise": "Enterprise Software",
+      "consulting": "Consulting"
+    },
+    "descriptions": {
+      "web": "Responsive and high-performance web applications with modern web technologies",
+      "mobile": "Native and cross-platform applications for iOS and Android platforms",
+      "ui": "User-centered, minimalist and effective interface designs",
+      "ecommerce": "Scalable and secure online sales platforms",
+      "enterprise": "Custom software solutions to optimize your business processes",
+      "consulting": "Guidance on digital transformation and technology strategies"
+    },
+    "cta": {
+      "title": "Let's Bring Your Project to Life",
+      "description": "Contact us to turn your ideas into reality",
+      "button": "Get in Touch"
+    }
+  },
+  "tech": {
+    "title": "WaveArc Tech",
+    "description": "We produce real solutions with technology in the physical world. We develop Industry 4.0 pioneer projects with IoT systems, automation, robotics and embedded systems.",
+    "hardware": {
+      "title": "Hardware & Embedded Systems",
+      "categories": {
+        "iot": "IoT & Sensors",
+        "robotics": "Robotics & Automation",
+        "embedded": "Embedded Software"
+      }
+    },
+    "solutions": {
+      "title": "Our Physical Solutions",
+      "automation": {
+        "title": "Industrial Automation",
+        "description": "Automation systems, quality control and data collection solutions in factories and production lines"
+      },
+      "smart": {
+        "title": "Smart Home & Building Systems",
+        "description": "Energy management, security and comfort systems with IoT sensors and smart devices"
+      },
+      "mechatronics": {
+        "title": "Robotics & Mechatronics",
+        "description": "Design and control of industrial robots, servo systems and precision mechanical systems"
+      },
+      "agriculture": {
+        "title": "Environment & Agricultural Technologies",
+        "description": "Smart agriculture, environmental monitoring and sustainable technology solutions"
+      }
+    },
+    "cta": {
+      "title": "Strengthen Your Technology Infrastructure",
+      "description": "Let's develop custom solutions for your corporate technology needs",
+      "button": "Technical Consulting"
+    }
+  },
+  "labs": {
+    "title": "WaveArc Labs",
+    "description": "We research and develop tomorrow's technologies today. We bring experimental projects that push boundaries to life in our innovation laboratory.",
+    "research": {
+      "ai": {
+        "title": "Artificial Intelligence & Machine Learning",
+        "description": "Research and development studies in deep learning algorithms, natural language processing and computer vision technologies"
+      },
+      "blockchain": {
+        "title": "Blockchain & Web3",
+        "description": "Development of decentralized applications, smart contracts and blockchain-based solutions"
+      },
+      "iot": {
+        "title": "IoT & Edge Computing",
+        "description": "Smart systems development with Internet of Things devices and edge computing solutions"
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "description": "Cloud architecture, containerization and continuous integration/deployment pipeline optimization"
+      }
+    },
+    "cta": {
+      "title": "Join Our Research Projects",
+      "description": "Collaborate with us to participate in innovative technology projects",
+      "button": "Explore Our Projects"
+    }
+  },
+  "footer": {
+    "links": {
+      "about": "About",
+      "contact": "Contact",
+      "privacy": "Privacy"
+    },
+    "copyright": "© 2025 WaveArc. Think Different, Build Better.",
+    "languageToggle": "TR"
+  }
+}

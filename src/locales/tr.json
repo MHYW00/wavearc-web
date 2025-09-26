@@ -1,0 +1,131 @@
+{
+  "hero": {
+    "mainTitle": "WaveArc",
+    "slogan1": "Think Different",
+    "slogan2": "Build Better",
+    "slogan1Tr": "Farklı Düşün",
+    "slogan2Tr": "Daha İyisini İnşa Et"
+  },
+  "sections": {
+    "studio": {
+      "title": "WaveArc",
+      "subtitle": "Studio",
+      "description": "Yazılım geliştirme ve teknoloji çözümlerimizin merkezi olan alt yapılarımız",
+      "studioDesc": "Yaratıcı yazılım geliştirme ve tasarım çözümleri",
+      "labsDesc": "Araştırma, geliştirme ve yenilikçi teknoloji laboratuvarı",
+      "techDesc": "İleri teknoloji altyapı ve sistem çözümleri"
+    },
+    "vision": {
+      "title": "Vizyon",
+      "subtitle": "Geleceği şekillendiriyoruz",
+      "description": "Teknolojinin sınırlarını sürekli zorlayarak, hayal gücü ile gerçeklik arasında güçlü köprüler kuruyor, dijital dönüşüm yolculuğunda öncü olmaya devam ediyoruz. İnovasyon ve yaratıcılığı harmanlayarak, geleceğin teknolojilerini bugünden inşa ediyoruz."
+    },
+    "mission": {
+      "title": "Misyon",
+      "subtitle": "Fark yaratmaya odaklanıyoruz",
+      "description": "Her projede mükemmelliği hedefleyerek, kullanıcı odaklı ve düşündürücü tasarımlarla sektörleri köklü biçimde dönüştürüyoruz. Sürdürülebilir çözümler geliştirirken, teknolojinin insan hayatını iyileştirme potansiyelini maksimuma çıkarıyoruz."
+    },
+    "about": {
+      "title": "Biz Kimiz",
+      "subtitle": "Kurucu: Mete Han Yıldırım",
+      "description": "2025 yılında Türkiye'de kurulan WaveArc, yazılım geliştirme ve teknoloji alanında çığır açan yenilikçi çözümler sunan bir teknoloji şirketi olarak, global pazarda rekabet edebilir ürünler geliştirmeyi hedefliyor. Vizyoner yaklaşımımızla sektörde fark yaratıyoruz."
+    }
+  },
+  "studio": {
+    "title": "WaveArc Studio",
+    "description": "Yaratıcılığın teknoloji ile buluştuğu nokta. Modern tasarım anlayışı ile kullanıcı deneyimini ön planda tutan yazılım çözümleri geliştiriyoruz.",
+    "services": {
+      "web": "Web Geliştirme",
+      "mobile": "Mobil Uygulamalar",
+      "ui": "UI/UX Tasarım",
+      "ecommerce": "E-ticaret Çözümleri",
+      "enterprise": "Kurumsal Yazılım",
+      "consulting": "Danışmanlık"
+    },
+    "descriptions": {
+      "web": "Modern web teknolojileri ile responsive ve performanslı web uygulamaları",
+      "mobile": "iOS ve Android platformları için native ve cross-platform uygulamalar",
+      "ui": "Kullanıcı odaklı, minimalist ve etkili arayüz tasarımları",
+      "ecommerce": "Ölçeklenebilir ve güvenli online satış platformları",
+      "enterprise": "İş süreçlerinizi optimize eden özel yazılım çözümleri",
+      "consulting": "Dijital dönüşüm ve teknoloji stratejileri konusunda rehberlik"
+    },
+    "cta": {
+      "title": "Projenizi Hayata Geçirelim",
+      "description": "Fikirlerinizi gerçeğe dönüştürmek için bizimle iletişime geçin",
+      "button": "İletişime Geç"
+    }
+  },
+  "tech": {
+    "title": "WaveArc Tech",
+    "description": "Fiziksel dünyada teknoloji ile gerçek çözümler üretiyoruz. IoT sistemleri, otomasyon, robotik ve gömülü sistemler ile endüstri 4.0'ın öncüsü projeler geliştiriyoruz.",
+    "hardware": {
+      "title": "Donanım & Gömülü Sistemler",
+      "categories": {
+        "iot": "IoT & Sensörler",
+        "robotics": "Robotik & Otomasyon",
+        "embedded": "Gömülü Yazılım"
+      }
+    },
+    "solutions": {
+      "title": "Fiziksel Çözümlerimiz",
+      "automation": {
+        "title": "Endüstriyel Otomasyon",
+        "description": "Fabrika ve üretim hatlarında otomasyon sistemleri, kalite kontrol ve veri toplama çözümleri"
+      },
+      "smart": {
+        "title": "Akıllı Ev & Bina Sistemleri",
+        "description": "IoT sensörleri ve akıllı cihazlarla enerji yönetimi, güvenlik ve konfor sistemleri"
+      },
+      "mechatronics": {
+        "title": "Robotik & Mekatronik",
+        "description": "Endüstriyel robotlar, servo sistemleri ve hassas mekanik sistemlerin tasarım ve kontrolü"
+      },
+      "agriculture": {
+        "title": "Çevre & Tarım Teknolojileri",
+        "description": "Akıllı tarım, çevre izleme ve sürdürülebilir teknoloji çözümleri"
+      }
+    },
+    "cta": {
+      "title": "Teknoloji Altyapınızı Güçlendirin",
+      "description": "Kurumsal teknoloji ihtiyaçlarınız için özel çözümler geliştirelim",
+      "button": "Teknik Danışmanlık"
+    }
+  },
+  "labs": {
+    "title": "WaveArc Labs",
+    "description": "Geleceğin teknolojilerini bugünden araştırıyor ve geliştiriyoruz. İnovasyon laboratuvarımızda sınırları zorlayan deneysel projeler hayata geçiriyoruz.",
+    "research": {
+      "ai": {
+        "title": "Yapay Zeka & Machine Learning",
+        "description": "Derin öğrenme algoritmaları, doğal dil işleme ve bilgisayarla görü teknolojilerinde araştırma ve geliştirme çalışmaları"
+      },
+      "blockchain": {
+        "title": "Blockchain & Web3",
+        "description": "Merkezi olmayan uygulamalar, akıllı kontratlar ve blockchain tabanlı çözümlerin geliştirilmesi"
+      },
+      "iot": {
+        "title": "IoT & Edge Computing",
+        "description": "Nesnelerin interneti cihazları ve edge computing çözümleri ile akıllı sistemler geliştirme"
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "description": "Bulut mimarisi, konteynerizasyon ve sürekli entegrasyon/dağıtım pipeline'ları optimizasyonu"
+      }
+    },
+    "cta": {
+      "title": "Araştırma Projelerimize Katılın",
+      "description": "Yenilikçi teknoloji projelerinde yer almak için bizimle iş birliği yapın",
+      "button": "Projelerimizi Keşfedin"
+    }
+  },
+  "footer": {
+    "links": {
+      "about": "Hakkında",
+      "contact": "İletişim",
+      "privacy": "Gizlilik"
+    },
+    "copyright": "© 2025 WaveArc. Think Different, Build Better.",
+    "languageToggle": "EN"
+  }
+}
