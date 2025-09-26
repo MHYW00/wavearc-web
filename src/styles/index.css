@@ -2,6 +2,25 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* Typewriter Effect Styles */
+.typewriter-wrapper {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.typewriter-cursor {
+  color: #ffffff;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 @layer base {
   :root {
     --foreground: 224 71.4% 4.1%;

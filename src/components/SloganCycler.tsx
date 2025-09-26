@@ -1,28 +1,7 @@
 import { motion } from 'framer-motion'
-import { useState, useEffect } from 'react'
+import Typewriter from 'typewriter-effect'
 
 const SloganCycler = () => {
-  const [displayText, setDisplayText] = useState('')
-  const [showCursor, setShowCursor] = useState(true)
-
-  const fullText = "Think Different, Build Better"
-
-  useEffect(() => {
-    let index = 0
-
-    const typeInterval = setInterval(() => {
-      if (index < fullText.length) {
-        setDisplayText(fullText.substring(0, index + 1))
-        index++
-      } else {
-        clearInterval(typeInterval)
-        setShowCursor(false)
-      }
-    }, 100)
-
-    return () => clearInterval(typeInterval)
-  }, [])
-
   return (
     <motion.div
       className="text-2xl md:text-3xl lg:text-4xl font-light text-gray-300 mb-16 space-y-2"
@@ -32,8 +11,18 @@ const SloganCycler = () => {
     >
       <div className="text-center">
         <div className="min-h-[1.2em]">
-          {displayText}
-          {showCursor && <span className="border-r-2 border-white/50 ml-1 animate-pulse"></span>}
+          <Typewriter
+            options={{
+              strings: ['Think Different, Build Better'],
+              autoStart: true,
+              loop: false,
+              delay: 80,
+              deleteSpeed: 50,
+              cursor: '|',
+              wrapperClassName: 'typewriter-wrapper',
+              cursorClassName: 'typewriter-cursor'
+            }}
+          />
         </div>
       </div>
     </motion.div>
