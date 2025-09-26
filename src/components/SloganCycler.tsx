@@ -1,13 +1,11 @@
 import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
-import { useLanguage } from '../contexts/LanguageContext'
 
 const SloganCycler = () => {
-  const { t } = useLanguage()
   const [displayText, setDisplayText] = useState('')
   const [showCursor, setShowCursor] = useState(true)
 
-  const fullText = `${t.hero.slogan1}, ${t.hero.slogan2}` // "Think Different, Build Better"
+  const fullText = "Think Different, Build Better"
 
   useEffect(() => {
     let index = 0
@@ -23,7 +21,7 @@ const SloganCycler = () => {
     }, 100)
 
     return () => clearInterval(typeInterval)
-  }, [fullText])
+  }, [])
 
   return (
     <motion.div
