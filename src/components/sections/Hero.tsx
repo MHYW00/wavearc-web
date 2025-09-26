@@ -158,7 +158,7 @@ const Hero = () => {
             }}
             transition={{ duration: 0.3 }}
           >
-{t.hero.mainTitle}
+WaveArc
           </motion.span>
         </motion.h1>
 

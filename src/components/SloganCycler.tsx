@@ -7,7 +7,7 @@ const SloganCycler = () => {
   const [displayText, setDisplayText] = useState('')
   const [showCursor, setShowCursor] = useState(true)
 
-  const fullText = `${t.hero.slogan1} ${t.hero.slogan2}` // "Think Different Build Better"
+  const fullText = `${t.hero.slogan1}, ${t.hero.slogan2}` // "Think Different, Build Better"
 
   useEffect(() => {
     let index = 0
