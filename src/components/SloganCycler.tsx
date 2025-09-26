@@ -13,8 +13,8 @@ const SloganCycler = () => {
         <div className="min-h-[1.2em]">
           <Typewriter
             options={{
-              autoStart: true,
-              loop: true,
+              autoStart: false,
+              loop: false,
               delay: 80,
               deleteSpeed: 50,
               cursor: '|',
@@ -22,17 +22,18 @@ const SloganCycler = () => {
               cursorClassName: 'typewriter-cursor'
             }}
             onInit={(typewriter) => {
-              typewriter
-                .typeString('Think Different, Build Better')
-                .pauseFor(4000)
-                .deleteAll()
-                .typeString('Farklı Düşün, Daha İyisini İnşa Et')
-                .pauseFor(4000)
-                .deleteAll()
-                .callFunction(() => {
-                  typewriter.start();
-                })
-                .start();
+              const runLoop = () => {
+                typewriter
+                  .typeString('Think Different, Build Better')
+                  .pauseFor(4000)
+                  .deleteAll()
+                  .typeString('Farklı Düşün, Daha İyisini İnşa Et')
+                  .pauseFor(4000)
+                  .deleteAll()
+                  .callFunction(runLoop)
+                  .start();
+              };
+              runLoop();
             }}
           />
         </div>
