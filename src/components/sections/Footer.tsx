@@ -62,6 +62,7 @@ const Footer = () => {
               href="https://instagram.com/wavearc.co"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Follow WaveArc on Instagram"
               className="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/10 transition-all duration-300"
               whileHover={{ scale: 1.1, y: -2 }}
               whileTap={{ scale: 0.95 }}
@@ -76,6 +77,7 @@ const Footer = () => {
               href="https://linkedin.com/company/wavearc"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Connect with WaveArc on LinkedIn"
               className="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/10 transition-all duration-300"
               whileHover={{ scale: 1.1, y: -2 }}
               whileTap={{ scale: 0.95 }}
@@ -90,6 +92,7 @@ const Footer = () => {
               href="https://github.com/wavearc"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="View WaveArc projects on GitHub"
               className="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/10 transition-all duration-300"
               whileHover={{ scale: 1.1, y: -2 }}
               whileTap={{ scale: 0.95 }}
@@ -104,6 +107,7 @@ const Footer = () => {
               href="https://twitter.com/wavearc"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Follow WaveArc on Twitter"
               className="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/10 transition-all duration-300"
               whileHover={{ scale: 1.1, y: -2 }}
               whileTap={{ scale: 0.95 }}
